@@ -1,0 +1,21 @@
+td{
+  border-bottom: 1px solid #ae1b1b;
+  border-left: 1px solid #ae1b1b;
+}
+
+td.name{
+  width:400px ;
+}
+
+td.author{
+  width:100px ;
+}
+
+td.publish{
+  width: 100px;
+}
+
+td.thumbnail{
+  width: 200px;
+}
+

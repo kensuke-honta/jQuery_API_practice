@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>goglebooks APIで Ajaxの練習</title>
+  <link rel="stylesheet" href="youtube.css">
+</head>
+<body>
+  <h1>Book検索</h1>
+  <div>
+    <input type="text" id="key">
+    <button id="send">検索</button>
+  </div>
+  <div>
+    <table id = "list">
+      <tr>
+        <td class="name">商品名</td>
+        <td class="author">作者名</td>
+        <td class="publish">出版社</td>
+        <td class="thumbnail">サムネイル</td>
+      </tr>
+    </table>
+  </div>
+  
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="youtube.js"></script>
+</body>
+</html>
